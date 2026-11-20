@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 私密安全报告
+    url: https://github.com/2224878257-pixel/hou-content-creator/security/advisories/new
+    about: 凭据、隐私或未公开漏洞请使用私密报告。

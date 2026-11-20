@@ -1,0 +1,45 @@
+name: Bug report
+description: 报告技能行为、文档、安装或打包问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交私人素材、密钥或未公开客户信息。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: 宿主
+      options:
+        - Codex
+        - ChatGPT
+        - Claude Code
+        - Cursor
+        - 其他 Agent Skills 宿主
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述与复现步骤
+      description: 请使用脱敏或虚构素材。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 已执行的检查
+      placeholder: python scripts/validate_project.py

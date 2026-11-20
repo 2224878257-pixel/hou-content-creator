@@ -1,0 +1,30 @@
+name: Feature request
+description: 建议新的工作流、规则、示例或兼容性改进
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的真实问题
+      description: 请先描述使用场景，不要只给功能名称。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 依据与官方资料
+      description: 涉及平台能力或规则时，请提供一手来源。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有包含私人信息、密钥或未经授权的内容。
+          required: true

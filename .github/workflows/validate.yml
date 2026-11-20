@@ -1,0 +1,24 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate project
+        run: python scripts/validate_project.py
+      - name: Build release archives
+        run: python scripts/package_release.py
+      - name: Inspect archive contents
+        run: unzip -l dist/hou-content-creator-v*.zip && unzip -l dist/hou-content-creator-plugin-v*.zip

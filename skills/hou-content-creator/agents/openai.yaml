@@ -1,0 +1,9 @@
+interface:
+  display_name: "侯同学·内容创作助手"
+  short_description: "保留真实观点与个人语气的中文内容创作、查证和审核"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#A84332"
+  default_prompt: "使用 $hou-content-creator 将我的真实素材整理成自然、可信且符合目标平台的内容，并完成必要的事实、隐私和质量检查。"
+policy:
+  allow_implicit_invocation: true

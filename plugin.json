@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hou-content-creator",
+  "version": "1.0.0",
+  "description": "A reusable Chinese content creation, editing, fact-checking, adaptation, and quality-review workflow that protects the creator's authentic voice and evidence.",
+  "author": {
+    "name": "侯同学呀",
+    "url": "https://github.com/2224878257-pixel"
+  },
+  "homepage": "https://github.com/2224878257-pixel/hou-content-creator",
+  "repository": "https://github.com/2224878257-pixel/hou-content-creator",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "content-creation",
+    "chinese-writing",
+    "fact-checking",
+    "creator-tools"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "侯同学·内容创作助手",
+        "shortDescription": "中文内容创作、查证与质量审核",
+        "longDescription": "将创作者的真实观点、素材和经历整理为适合公众号、知乎、小红书、短视频、X 与朋友圈的内容，并完成事实、隐私和质量检查。"
+      }
+    }
+  }
+}

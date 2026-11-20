@@ -1,0 +1,14 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="240" rx="24" fill="#FAF6ED"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#171717">
+    <rect x="36" y="72" width="160" height="96" rx="16" fill="#FFFFFF" stroke="#171717" stroke-width="2"/><text x="116" y="128">发现需求</text>
+    <rect x="230" y="72" width="160" height="96" rx="16" fill="#FFFFFF" stroke="#171717" stroke-width="2"/><text x="310" y="128">整理素材</text>
+    <rect x="424" y="72" width="160" height="96" rx="16" fill="#A84332"/><text x="504" y="128" fill="#FFFFFF">研究查证</text>
+    <rect x="618" y="72" width="160" height="96" rx="16" fill="#FFFFFF" stroke="#171717" stroke-width="2"/><text x="698" y="128">创作编辑</text>
+    <rect x="812" y="72" width="160" height="96" rx="16" fill="#FFFFFF" stroke="#171717" stroke-width="2"/><text x="892" y="128">质量审核</text>
+    <rect x="1006" y="72" width="160" height="96" rx="16" fill="#171717"/><text x="1086" y="116" fill="#FFFFFF">反馈迭代</text><text x="1086" y="145" fill="#FFFFFF">跨平台适配</text>
+  </g>
+  <g stroke="#A84332" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M202 120H220M214 114L220 120L214 126"/><path d="M396 120H414M408 114L414 120L408 126"/><path d="M590 120H608M602 114L608 120L602 126"/><path d="M784 120H802M796 114L802 120L796 126"/><path d="M978 120H996M990 114L996 120L990 126"/>
+  </g>
+</svg>
