@@ -1,0 +1,13 @@
+interface:
+  display_name: 侯同学·内容创作助手
+  short_description: 从真实选题、资料核实、自然写作到跨平台发布素材和十项质量审查
+  default_prompt: 使用 $hou-content-creator 将我的素材整理成符合个人品牌风格、经过自检的可发布内容。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
