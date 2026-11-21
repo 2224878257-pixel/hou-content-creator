@@ -27,6 +27,7 @@ It is not a viral-content generator and does not promise traffic or revenue.
 - Separate firsthand experience, facts, opinion, inference, plans, and unknowns
 - Adapt content for WeChat, Zhihu, Xiaohongshu, short video, Bilibili, X, and Moments
 - Review titles, cover direction, privacy, authenticity, and platform fit
+- Run three silent editing passes for factual fidelity, natural language, and removal of repetition or filler
 - Apply a ten-part quality review without fabricating evidence to improve a score
 
 ## Workflow
@@ -49,17 +50,17 @@ Preview before installing:
 gh skill preview 2224878257-pixel/hou-content-creator hou-content-creator
 ```
 
-Install v1.0.0 at user scope:
+Install v1.0.1 at user scope:
 
 ```bash
 # Codex
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent codex --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent codex --scope user
 
 # Claude Code
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent claude-code --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent claude-code --scope user
 
 # Cursor
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent cursor --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent cursor --scope user
 ```
 
 See the official [`gh skill install` documentation](https://cli.github.com/manual/gh_skill_install).
@@ -74,7 +75,7 @@ Official reference: [Skills in ChatGPT](https://help.openai.com/en/articles/2000
 
 The root [`plugin.json`](plugin.json) follows Agent Plugins 1.0.0, with the standalone skill under `skills/`. It can be imported locally by compatible hosts; the plugin has **not** been submitted to a public directory.
 
-For manual installation, download `hou-content-creator-v1.0.0.zip` from Releases and copy the included skill folder to the host's project-level or user-level skills directory. Refer to the [Agent Skills specification](https://agentskills.io/specification) and current host documentation.
+For manual installation, download `hou-content-creator-v1.0.1.zip` from Releases and copy the included skill folder to the host's project-level or user-level skills directory. Refer to the [Agent Skills specification](https://agentskills.io/specification) and current host documentation.
 
 ## Quick start
 

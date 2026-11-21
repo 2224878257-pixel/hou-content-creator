@@ -27,6 +27,7 @@
 - **事实与来源核查**：区分亲历、事实、观点、推断、计划和未知信息。
 - **多平台适配**：支持公众号、知乎、小红书、短视频、B站、X 与朋友圈。
 - **标题与视觉审核**：检查承诺是否兑现，提供克制的封面与配图规范。
+- **三遍内部编辑**：依次检查事实与原意、自然表达、重复与空话，发现问题直接修复。
 - **十项质量审核**：按适用项检查，不为凑分虚构证据。
 - **隐私与合规**：处理客户、公司内部信息、身份数据和 AI 生成内容的真实性边界。
 
@@ -59,24 +60,24 @@
 gh skill preview 2224878257-pixel/hou-content-creator hou-content-creator
 ```
 
-安装 v1.0.0 到用户级目录：
+安装 v1.0.1 到用户级目录：
 
 **Codex**
 
 ```bash
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent codex --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent codex --scope user
 ```
 
 **Claude Code**
 
 ```bash
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent claude-code --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent claude-code --scope user
 ```
 
 **Cursor**
 
 ```bash
-gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.0 --agent cursor --scope user
+gh skill install 2224878257-pixel/hou-content-creator hou-content-creator@v1.0.1 --agent cursor --scope user
 ```
 
 命令会把技能安装到对应宿主识别的目录。安装后新建会话，再用下面的提示词调用。GitHub 官方说明见 [`gh skill install`](https://cli.github.com/manual/gh_skill_install)；该命令支持的其他宿主可通过 `gh skill install --help` 查看。
@@ -95,7 +96,7 @@ ChatGPT 的 Skills 目前面向符合条件的 Business、Enterprise、Healthcar
 
 ### 手动安装
 
-下载 Release 中的 `hou-content-creator-v1.0.0.zip`，解压后将完整的 `hou-content-creator/` 文件夹复制到宿主的技能目录。常见目录包括：
+下载 Release 中的 `hou-content-creator-v1.0.1.zip`，解压后将完整的 `hou-content-creator/` 文件夹复制到宿主的技能目录。常见目录包括：
 
 | 宿主 | 项目级 | 用户级 |
 | --- | --- | --- |
