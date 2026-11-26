@@ -9,7 +9,7 @@ python scripts/validate_project.py
 python scripts/package_release.py
 ```
 
-`dist/hou-content-creator-plugin-v1.0.1.zip` 是完整插件包；`dist/hou-content-creator-v1.0.1.zip` 是只包含独立技能的安装包。
+`dist/hou-content-creator-plugin-v1.1.0.zip` 是完整插件包；`dist/hou-content-creator-v1.1.0.zip` 是只包含独立技能的安装包。
 
 ## 发布状态
 
